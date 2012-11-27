@@ -1,0 +1,169 @@
+div.appcontainer {
+	font-family: Arial !important;
+	border: 1px solid #E5E5E5 !important;
+	background-color: #F9F9F9;
+	width: auto;
+	color: #545450;
+	margin: 10px 0;
+}
+
+div.appcontainer .error {
+	padding: 10px;
+	display: inline-block;
+	font-size: 0.9em;
+}
+
+div.appcontainer a:link {
+	color: #545450 !important;
+}
+
+div.banner {
+	padding: 10px;
+}
+
+div.simple {
+	height: 86px;
+}
+
+div.appcontainer div.appscreenshots {
+	width: auto;
+	margin: 0 auto;
+	padding: 10px !important;
+}
+
+div.appcontainer div.appscreenshots div.slider {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 300px;
+	margin-top: 10px;
+}
+
+div.appcontainer div.appscreenshots div.slider ul {
+	padding: 0 !important;
+	margin: 0 !important;
+	list-style-image: none;
+	white-space:nowrap;
+}
+
+div.appcontainer div.appscreenshots div.slider ul li {
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-right: 6px !important;
+	list-style-type: none;
+	display: inline;
+}
+
+div.appcontainer div.appscreenshots div.slider ul li:last-child {
+	margin-right: 0 !important;
+}
+
+div.appcontainer div.appscreenshots div.slider ul li img {
+	height: 300px !important;
+	display: inline !important;
+}
+
+div.appcontainer img.appbanner {
+	width: 100% !important;
+	margin: 0;
+	border: 1px solid #E5E5E5 !important;
+}
+
+div.appcontainer img.appicon {
+	width: 64px !important;
+	height: 64px !important;
+	float: left;
+	margin-right: 12px;
+	margin: 10px;
+	border-radius: 5px;  
+	-moz-border-radius: 5px; 
+	-webkit-border-radius:5px;
+}
+
+div.appcontainer table.appdetails,
+div.appcontainer div.appdetails {
+	font-size: 0.9em;
+	line-height: 1.5em !important;
+}
+
+div.appcontainer table.appdetails {
+	line-height: 1.5em !important;
+	clear: all;
+	width: 100%;
+	margin-top: 8px;
+}
+
+div.appcontainer div.appdetails {
+	margin: 10px;
+}
+
+div.appcontainer table.appdetails td {
+	vertical-align: middle;
+}
+
+div.appcontainer table.appdetails td.appbutton {
+	width: 200px;
+	text-align: right;
+}
+
+div.appcontainer a.appbutton {
+	height: 42px !important;
+	float: right;
+	margin: 10px !important;
+	margin-right: 20px !important;
+}
+
+div.appcontainer a.appbutton,
+div.appcontainer table.appdetails td.appbutton a {
+	display: inline-block; 
+	border: 1px solid #E5E5E5 !important;
+	background: #FFF url('../googleplay.png') no-repeat center center;
+	padding: 10px 15px;
+	font-size: 0.9em !important;
+	font-weight: bold;
+	line-height: 1.4em !important;
+	text-align: center;
+	border-radius: 5px;  
+	-moz-border-radius: 5px; 
+	-webkit-border-radius:5px;
+}
+
+div.appcontainer .qrcode-banner {
+	width: 80px !important;
+	height: 80px !important;
+	border: 1px solid #E5E5E5 !important;
+	z-index: 9999;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 4px;
+	margin-right: -2px;
+}
+
+div.appcontainer .qrcode-boxed {
+	height: 86px !important;
+	float: right;
+}
+
+div.appcontainer .apptitle {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div.appcontainer a.appbutton:link,
+div.appcontainer a.appbutton:visited,
+div.appcontainer table.appdetails td.appbutton a:link,
+div.appcontainer table.appdetails td.appbutton a:visited,
+div.appcontainer .apptile:link,
+div.appcontainer .apptitle:visited,
+div.appcontainer .appauthor:link,
+div.appcontainer .appauthor:visited {
+	color: #545450;
+}
+
+div.appcontainer a.appbutton:hover,
+div.appcontainer table.appdetails td.appbutton a:hover,
+div.appcontainer .apptile:hover,
+div.appcontainer .appauthor:hover {
+	text-decoration: none !important;
+	color: #5588b5 !important;
+}
